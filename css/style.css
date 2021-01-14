@@ -1,0 +1,199 @@
+
+ /* navbar section */
+.font-name a{
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu-icon{
+    border: 0;
+    
+}
+.menubar li{
+     margin: 5px;
+     padding: 10px 10px;;
+}
+.menubar li a{
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+    
+    
+    }
+ 
+    /* banner section  */
+.banner-text-color1{
+color: #fabe4c;
+font-family: 'Bebas Neue', cursive;
+font-size: 80px;
+line-height:80px;
+
+}
+.section-heading-text{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.footer-heading-text{
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+}
+.banner-text-color2{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height:80px;
+
+}
+.bg-color{
+    background-color: #9ab337;
+    padding: 20px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.header-color{
+
+    background-color: #FFFBF0;
+}
+.bg-for-card{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.card-extra{
+    
+    
+    
+    border: none;
+}
+.card{
+    border:0;
+    border-radius: 100px;
+    
+}
+.card img{
+    
+    height: 400px;
+}
+.card-title-text{
+   
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+}
+.amount{
+    color:  #FABE4C;
+    font-weight: bold;
+}
+
+/* Customer section */
+.customer-image{
+    border-radius: 100%;
+    
+}
+
+.customer_review{
+    text-align: center;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+}
+.customer-name{
+    text-align: center;
+    color: #363958;
+}
+.star1{
+font-size: larger;
+color: darkgoldenrod;
+text-align: center;
+}
+.not-rate{
+    font-size: larger;
+    color: rgb(189, 189, 189);
+    text-align: center;  
+}
+
+/* footer section */
+.bg-footer{
+    background-color: #F1F1F1;
+}
+.footer-icon i{
+    font-size: 50px;
+   background-color: rgb(255, 247, 247);
+   padding: 10px;
+   border-radius: 40px;
+   margin: 5px;
+}
+
+.footer-text{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+}
+.footer-button{
+    font-size: 20px;
+    padding: 3px;
+    margin: 6px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 2px rgb(175, 170, 170);
+    border: none;
+}
+
+/* Promotion Section */
+
+.promotion{
+   border-radius: 20px;
+   margin: 20px;
+   box-shadow: 2px 3px 2px 2px rgba(233, 228, 228, 0.466);
+}
+.promotion-icon img{
+    width: 100px;
+    height: 100px;
+    padding: 10px; 
+    margin: 20px; 
+}
+
+.promotion-text{
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+.promotion-text-p{
+    margin: 20px;
+}
+.reverse-page{
+    display: flex;
+}
+
+
+ /* Media Query */
+@media screen and (max-width: 600px){
+   
+    .section-heading-text{
+        font-family: 'Bebas Neue', cursive;
+        color: #363958;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .reverse-page {
+       flex-direction:column-reverse;  
+        
+     }
+
+     .promotion{
+         margin-top: 100px;
+     }
+
+     .promotion-align img{
+         margin-left: 170px;
+     }
+
+     .promotion-text{
+        color: #363958;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    .promotion-text-p{
+        text-align: center;
+        font-size: larger;
+    }
+
+    }
