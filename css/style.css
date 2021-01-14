@@ -138,13 +138,13 @@ text-align: center;
 
 .promotion{
    border-radius: 20px;
-   margin: 20px;
+   margin: 10px;
    box-shadow: 2px 3px 2px 2px rgba(233, 228, 228, 0.466);
 }
 .promotion-icon img{
     width: 100px;
     height: 100px;
-    padding: 10px; 
+  
     margin: 20px; 
 }
 
